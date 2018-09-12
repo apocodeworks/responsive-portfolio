@@ -1,0 +1,159 @@
+body {
+background-color: #f2f2f2;
+margin: 0;  
+background-image: url("gravel.png");
+}
+
+
+header {
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: 0px;
+    padding-top: 0px;
+    border-bottom: 3px solid rgba(232, 232, 232, 0.8);
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Homebutton {
+    width: 175px;
+    float: left;
+    margin-top: 0;
+    margin-left: 250px;
+    height: 75px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: #29a3a3;
+    font-size: 19px;
+    color: white;
+}
+
+ul {
+    margin-top: 0px;
+    margin-right: 250px;
+    font-size: 20px;
+}
+li {
+    float: right;
+    list-style: none;
+}
+
+a {
+    display: block;
+    color: grey;
+    padding: 3px;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: grey;
+}
+.container {
+    border: 3px ridge rgba(233, 233, 233, 0.5);
+    padding: 20px;
+    background-color: white;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 16px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    color: #29a3a3;
+    margin-left: 55px;
+    
+}
+
+#headshot {
+    float: left;
+    padding-right: 20px;
+}
+
+form {
+    font-size: 16px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form1 {
+    width: 100%;
+    border: 2px solid rgba(233, 233, 233, 0.8);
+    border-radius: 4px;
+    padding: 5px;
+}
+
+#message {
+    height: 300px;
+}
+
+.smallbutton {
+    color: white;
+    background-color: #29a3a3;
+    padding: 5px;
+    width: 100px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+    footer {
+        text-align: center;
+        font-size: 12px;
+        color: white;
+        background-color: grey;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        height: 50px;
+        border-top: 8px solid #29a3a3;
+    }
+
+.projectlink {
+    padding: 25px;
+}
+
+
+#link1 {
+    position: relative;
+    float: left;
+}
+
+#link2 {
+    position: relative;
+    float: left;
+}
+
+#link3 {
+    position: relative;
+     float: left; 
+}
+
+#imagelinks {
+    display: inline-block;
+}
+
+#tag1 {
+    width: 194px;
+    height: 35px;
+    position: relative;
+    bottom: 100px;
+    left: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #29a3a3;
+}
+
+.clearfix:after {
+    content: " "; /* Older browser do not support empty content */
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+ }
