@@ -165,18 +165,21 @@ form {
  @media screen and (max-width: 760px) {
 
     body {
-        margin-left: 10px;
-        margin-right: 10px;
         width: auto;
     }
     .container {
         width: 640px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     #Homebutton {
         float: left;
         margin-left: 0;
+    }
+
+    header {
+        margin-right: 0;
+        width: 760px;
     }
 
     li {
@@ -191,13 +194,11 @@ form {
 
   
   h3 {
-        width: 800px;
+        width: 600px;
         margin-left: 100px;
         float: none;
     }
-    footer {
-        width: auto;
-    }
+  
 
     #headshot {
         float: left;
@@ -213,21 +214,20 @@ form {
 
     body {
         margin-left: 10px;
-        margin-right: 10px;
-        width: 400px;
+        margin-right: 0;
+        width: 640px;
     }
     .container {
         width: 300px;
-        margin-left: 40px;
-        margin-left: 0;
     }
 
     header {
         width: 400px;
+        margin-right: 0;
     }
 
     h3 {
-        width: 400px;
+        width: 150px;
         margin-left: 100px;
         float: none;
     }
