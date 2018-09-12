@@ -159,6 +159,54 @@ form {
  }
 
  @media screen and (max-width: 980px) {
+
+    body {
+        margin-left: 10px;
+        margin-right: 0;
+        width: auto;
+    }
+    .container {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    header {
+        width: auto;
+        margin-right: 0;
+    }
+
+    h3 {
+        width: 150px;
+        margin-left: 100px;
+        float: none;
+    }
+
+    #Homebutton {
+        width: auto;
+        margin-left: 0;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    footer {
+        width: auto;
+    }
+
+    #headshot {
+        float: none;
+        margin-left: 40px;
+        padding-bottom: 30px;
+    }
+
+    ul {
+        float: right;
+        margin: 0;
+    }
+
+    li {
+        float: right;
+        margin-right: 40px;
+    }
     
  }
 
@@ -168,7 +216,7 @@ form {
         width: auto;
     }
     .container {
-        width: 640px;
+        width: 80%;
         margin-left: 30px;
     }
 
@@ -215,15 +263,16 @@ form {
     body {
         margin-left: 10px;
         margin-right: 0;
-        width: 640px;
+        width: auto;
     }
     .container {
-        width: 300px;
+        width: 80%;
+        margin-left: 15px;
     }
 
     header {
-        width: 400px;
-        margin-right: 0;
+        width: 100%;
+        padding-right: 20px;
     }
 
     h3 {
@@ -233,12 +282,14 @@ form {
     }
 
     #Homebutton {
-        width: 400px;
+        width: 100%;
         margin-left: 0;
+        padding-right: 10px;
+        padding-left: 10px;
     }
 
     footer {
-        width: 400px;
+        width: auto;
     }
 
     #headshot {
@@ -248,12 +299,13 @@ form {
     }
 
     ul {
-        float: none;
+        float: center;
         margin: 0;
     }
 
     li {
-        float: left;
-        margin-left: 40px;
+        position: relative;
+        right: 130px;
+
     }
  }
