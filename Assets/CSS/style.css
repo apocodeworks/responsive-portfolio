@@ -157,3 +157,103 @@ form {
     height: 0;
     clear: both;
  }
+
+ @media screen and (max-width: 980px) {
+    
+ }
+
+ @media screen and (max-width: 760px) {
+
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+    }
+    .container {
+        width: 640px;
+        margin-left: 20px;
+    }
+
+    #Homebutton {
+        float: left;
+        margin-left: 0;
+    }
+
+    li {
+        float: right;
+    }
+
+    ul {
+        float: right;
+        margin-right: 30px;
+    }
+   
+
+  
+  h3 {
+        width: 800px;
+        margin-left: 100px;
+        float: none;
+    }
+    footer {
+        width: auto;
+    }
+
+    #headshot {
+        float: left;
+        margin-left: 40px;
+        padding-bottom: 30px;
+    }
+
+    
+ }
+
+ @media screen and (max-width: 640px) {
+
+
+    body {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 400px;
+    }
+    .container {
+        width: 300px;
+        margin-left: 40px;
+        margin-left: 0;
+    }
+
+    header {
+        width: 400px;
+    }
+
+    h3 {
+        width: 400px;
+        margin-left: 100px;
+        float: none;
+    }
+
+    #Homebutton {
+        width: 400px;
+        margin-left: 0;
+    }
+
+    footer {
+        width: 400px;
+    }
+
+    #headshot {
+        float: none;
+        margin-left: 40px;
+        padding-bottom: 30px;
+    }
+
+    ul {
+        float: none;
+        margin: 0;
+    }
+
+    li {
+        float: left;
+        margin-left: 40px;
+    }
+ }
